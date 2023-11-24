@@ -1,4 +1,4 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap'); */
+
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
 * {
@@ -101,46 +101,4 @@ li {
 #contact .card {
   background: linear-gradient(#454545, #999999);
   box-shadow: 0 20px 30px #999999;
-}
-
-/* .container{
-    background-color: aquamarine;
-} 
-
-.container-fluid{
-    background-color: aqua;
-} */
-
-/* responsive design */
-
-@media only screen and (min-width: 319px) and (max-width: 426px) {
-  .banner .banner_image {
-    height: 33vh;
-
-  }
-
- .banner .overlay_text p {
-    font-size: 14px;
-  }
-
-   .banner .overlay_text h1 {
-    font-size: 18px;
-  }
-
-  #range_section .{
-
-  }
-
-
-}
-
-@media (min-width: 427px) and (max-width: 769px) {
-  #banner .container-md {
-  }
-}
-
-@media (min-width: 770) and (max-width: 1025px) {
-  #banner .bg-image {
-    height: 50px;
-  }
 }
