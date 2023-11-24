@@ -1,0 +1,146 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap'); */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* banner section  */
+
+.banner .banner_image {
+  background-image: url("../images/bg-1.jpeg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+}
+
+.banner .overlay_text p {
+  font-size: 50px;
+}
+
+.banner .overlay_text h1 {
+  font-size: 75px;
+}
+
+/* range_section */
+
+#range_section hr {
+  border-color: red;
+}
+
+#range_section .card {
+  background: linear-gradient(#454545, #999999);
+  box-shadow: 0 20px 30px #999999;
+}
+
+/* card_section */
+
+#card {
+  background: linear-gradient(#454545, #999999);
+  box-shadow: 0 30px 30px #999999;
+  /* margin-top: 10px; */
+  min-height: 100vh;
+  position: relative;
+}
+
+#card .card {
+  width: 80%;
+  background: #fff;
+  color: #000;
+  position: absolute;
+  top: 12%;
+  left: 10%;
+}
+
+#card img {
+  position: absolute;
+  height: 600px;
+  width: 600px;
+  top: 22%;
+  left: 7%;
+  z-index: 1;
+}
+
+/* last_section */
+
+#last_section .container-fluid img {
+  width: 80vw;
+  height: auto;
+}
+
+ul {
+  list-style: none;
+  padding-right: 50px;
+}
+
+ul li::before {
+  content: "\2022";
+  color: red;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+}
+
+li {
+  padding-left: 10px;
+}
+
+#last_section .card {
+  background: linear-gradient(#454545, #999999);
+  box-shadow: 0 20px 30px #999999;
+}
+
+#contact .card {
+  background: linear-gradient(#454545, #999999);
+  box-shadow: 0 20px 30px #999999;
+}
+
+/* .container{
+    background-color: aquamarine;
+} 
+
+.container-fluid{
+    background-color: aqua;
+} */
+
+/* responsive design */
+
+@media only screen and (min-width: 319px) and (max-width: 426px) {
+  .banner .banner_image {
+    height: 33vh;
+
+  }
+
+ .banner .overlay_text p {
+    font-size: 14px;
+  }
+
+   .banner .overlay_text h1 {
+    font-size: 18px;
+  }
+
+  #range_section .{
+
+  }
+
+
+}
+
+@media (min-width: 427px) and (max-width: 769px) {
+  #banner .container-md {
+  }
+}
+
+@media (min-width: 770) and (max-width: 1025px) {
+  #banner .bg-image {
+    height: 50px;
+  }
+}
